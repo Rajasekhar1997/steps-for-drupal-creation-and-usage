@@ -1,0 +1,50 @@
+Process for slide show image:
+
+go to structures
+select block layout
+choose slide show
+click on place block
+choose add custom block
+give block discription
+and add the image, 
+click on save button
+choose hide title
+choose the slide show to display image
+finally save again
+
+Process for drupal site installation:
+
+first make public_html folder in root folder
+make folder with your site name  : mkdir foldername
+Enter into that folder : cd public_html/site folder/ 
+Make another three folders: mkdir private cgi-bin log backup
+download drupal latest version using terminal or direct
+extract the file and rename it as public
+go into public and in public/sites/default
+in default make files folder and settings.php file 
+make changes in settings.php
+give sudo chmod -R 777 for files
+now enter into nginx : cd /etc/nginx/sites-available
+make one file with your site name and extension as .conf and save the file
+make some changes like exchange with sitename.com and folder names etc
+make a link to sites-enabled : sudo ln -s /etc/nginx/sites-available/file.conf /etc/nginx/sites-enabled
+Now move on to hosts : cd /etc and enter as, sudo nano hosts
+Now refresh the nginx : sudo service nginx restart
+enter into mysql database : mysql -uroot -p
+Enter password
+Make database for your site with your site name
+restart mysql
+restart php
+then run the site.
+
+
+
+Adding slide show:
+create gavias class 
+after click on edit make changes like add image with slides
+save changes  
+go to configuration and add the auto image changing time 
+save the changes 
+Go to Block layout and choose before full block of data and add the gavias slide show with place block option
+Save the changes 
+
