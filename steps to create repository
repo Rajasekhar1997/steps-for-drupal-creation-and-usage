@@ -1,0 +1,13 @@
+
+ 1062  git init
+ 1063  cd git
+ 1064  git config --global user.name "Your Name"
+ 1065  git config --global user.name "ASHOOKUMARREDDY"
+ 1066  git config --global user.name "ASHOOKUMARREDDYG"
+ 1067  git config --global user.email "g.ashokreddy9908@gmail.com"
+ 1068  echo "# Sastra-Technologies" >> README.md
+ 1069  git init
+ 1070  git add README.md
+ 1071  git commit -m "daily backup"
+ 1072  git remote add origin https://github.com/ASHOKKUMARREDDYG/Sastra-Technologies.git
+ 1073  git push -u origin master
