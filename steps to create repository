@@ -9,5 +9,5 @@
  1069  git init
  1070  git add README.md
  1071  git commit -m "daily backup"
- 1072  git remote add origin https://github.com/ASHOKKUMARREDDYG/Sastra-Technologies.git
+ 1072  git remote add origin https://github.com/RAJASEKHARREDDYP/Sastra-Technologies.git
  1073  git push -u origin master
